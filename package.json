@@ -1,0 +1,15 @@
+{
+  "name": "raceguardx",
+  "version": "1.0.0",
+  "description": "RaceGuardX — Every Request. Every Seat. Under Control. High-concurrency course registration platform.",
+  "scripts": {
+    "server": "npm --prefix server start",
+    "server:dev": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "seed": "npm --prefix server run seed",
+    "test:concurrency": "npm --prefix server run test:concurrency"
+  },
+  "keywords": ["concurrency", "course-registration", "race-conditions", "postgresql", "react"],
+  "author": "RaceGuardX Team",
+  "license": "ISC"
+}
