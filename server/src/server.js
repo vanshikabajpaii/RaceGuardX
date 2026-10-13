@@ -22,7 +22,7 @@ const PORT = process.env.PORT || 5000;
 // Middleware
 app.use(cors());
 app.use(express.json());
-createClient(https://aegjergg54johtg3tbnop.supabase.co,hsoihd53gurhi_g43jfs_)
+
 // Optional auth middleware for endpoints that can benefit from student identity (like course listing)
 function optionalAuth(req, res, next) {
   const authHeader = req.headers['authorization'];
